@@ -12,14 +12,25 @@ header {
 }
 
 #map {
-    height: 400px; /* Imposta l'altezza desiderata per la mappa */
-    margin: 20px;
-}
-
-#cities {
-    margin: 20px;
-}
-
+    height: 500px;
+    width: 100%;
+  }
+  
+  .leaflet-marker-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+  
+  .leaflet-popup-content {
+    width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px;
+  }
+  
 ul {
     list-style-type: none;
     padding: 0;
